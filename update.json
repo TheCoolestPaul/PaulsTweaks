@@ -1,0 +1,12 @@
+{
+  "homepage": "https://github.com/TheCoolestPaul/PaulsTweaks",
+  "changelog": "https://github.com/TheCoolestPaul/PaulsTweaks/releases",
+  "1.16.2": {
+    "0.0.1": "https://github.com/TheCoolestPaul/PaulsTweaks/releases/tag/0.0.1",
+    "0.0.2": "https://github.com/TheCoolestPaul/PaulsTweaks/releases/tag/0.0.2"
+  },
+  "promos": {
+    "1.16.2-latest": "1.16.2-0.0.2",
+    "1.16.2-recommended": "1.16.2-0.0.1"
+  }
+}
