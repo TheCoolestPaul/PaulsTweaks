@@ -1,29 +1,31 @@
 modLoader = "javafml"
 loaderVersion = "[33,)"
 issueTrackerURL = "https://github.com/TheCoolestPaul/PaulsTweaks/issues"
-displayURL = "https://github.com/TheCoolestPaul/PaulsTweaks"
-authors = "TheCoolestPaul"
 license = "All Rights Reserved"
 
 [[mods]]
-modId = "paulstweaks"
-version = "1.16.2-0.0.1-ALPHA"
-displayName = "Paul's Tweaks"
-description = '''
-After playing MineCraft for a few years I decided to add
-my own, tweaks, to the game.
-'''
+    modId = "paulstweaks"
+    version = "1.16.2-0.0.2"
+    displayName = "Paul's Tweaks"
+    logoFile="paulstweaks.png"
+    updateJSONURL="https://raw.githubusercontent.com/TheCoolestPaul/PaulsTweaks/master/update.json"
+    displayURL = "https://github.com/TheCoolestPaul/PaulsTweaks"
+    authors = "TheCoolestPaul"
+    description = '''
+    After playing MineCraft for a few years I decided to add
+    my own, tweaks, to the game.
+    '''
 
-[[dependencies.paulstweaks]]
-modId = "forge"
-mandatory = true
-versionRange = "[33.0.0,)"
-ordering = "NONE"
-side = "BOTH"
+    [[dependencies.paulstweaks]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[33.0.0,)"
+    ordering = "NONE"
+    side = "BOTH"
 
-[[dependencies.paulstweaks]]
-modId = "minecraft"
-mandatory = true
-versionRange = "[1.16.2,)"
-ordering = "NONE"
-side = "BOTH"
+    [[dependencies.paulstweaks]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.16.2]"
+    ordering = "NONE"
+    side = "BOTH"
